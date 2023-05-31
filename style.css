@@ -1,6 +1,7 @@
 * {
 	margin: 0 auto;
 	font-family: 'Orbitron', sans-serif;
+	box-sizing: content-box;
 }
 
 body {
@@ -51,11 +52,18 @@ h1::after {
 #email, #password {
 	border-radius: 10px;
 	padding: 5px;
-	margin: 10px auto;
+	margin: 10px auto;	
 }
 
+#email:hover {
+	box-shadow: 0px 0px 10px 5px hsla(263, 63%, 31%, 0.9);
+} 
+#password:hover {
+	box-shadow: 0px 0px 10px 5px hsla(263, 63%, 31%, 0.9);
+}
 
 button {
+	margin: 10px auto;
 	width: 100px;
 	height: 40px;
 	padding: 5px;
@@ -77,4 +85,6 @@ button:hover {
 
 #forgot-password:hover {
 	text-shadow: blueviolet 0px 0px 10px;
+	/* color: rgba(255, 105, 105, 0.356) */
+	color: rgba(137, 43, 226, 0.9);
 }
