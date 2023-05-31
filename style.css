@@ -43,7 +43,18 @@ h1::after {
 	content: "🎮";
 }
 
-#email {
+#email, #password {
 	padding: 5px;
-	margin: 5px auto;
+	margin: 10px auto;
+}
+
+button {
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 30px 60px;
+}
+
+button:hover {
+	box-shadow: 0px 0px 10px 5px #441d81;
 }
