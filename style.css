@@ -25,13 +25,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	width: 30%;
+	height: 350px;
 	background-color: transparent;
 	border-radius: 40px;
 	box-shadow: 0px 0px 20px 10px #441d81;
 	/* background: #8C8C8C;
 	background: radial-gradient(at center, #8C8C8C, #1F0F35); */
-	width: 30%;
-	height: 350px;
 }
 
 h1 {
@@ -44,6 +44,7 @@ h1::after {
 }
 
 #email, #password {
+	border-radius: 10px;
 	padding: 5px;
 	margin: 10px auto;
 }
@@ -56,5 +57,14 @@ button {
 }
 
 button:hover {
-	box-shadow: 0px 0px 10px 5px #441d81;
+	box-shadow: 0px 0px 10px 5px #431d8196;
+	color: blueviolet;
+}
+
+#forgot-password {
+	color: white;
+	text-shadow: blueviolet 0px 0px 10px;
+	text-decoration: none;
+	margin: 10px auto;
+	padding: 10px;
 }
