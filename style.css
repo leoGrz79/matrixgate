@@ -5,10 +5,13 @@
 
 body {
 	/* with a helping hand from https://css-gradient.com/ */
-	background: #8C8C8C;
-	background: radial-gradient(at center, #8C8C8C, #1F0F35);
-	/* background: #393BD9;
-	background: radial-gradient(at center, #393BD9, #1EA849); */
+
+	background: #200F35;
+	background: radial-gradient(at center, #200F35, #000000);
+
+	/* background: #8C8C8C;
+	background: radial-gradient(at center, #8C8C8C, #1F0F35); */
+
 }
 
 .main {
@@ -35,6 +38,8 @@ body {
 }
 
 h1 {
+	letter-spacing: 10px;
+	color: white;
 	padding: 5px;
 	margin: 10px auto;
 }
@@ -49,11 +54,13 @@ h1::after {
 	margin: 10px auto;
 }
 
+
 button {
 	width: 100px;
 	height: 40px;
 	padding: 5px;
-	border-radius: 30px 60px;
+	border-radius: 60px 30px;
+
 }
 
 button:hover {
@@ -62,9 +69,12 @@ button:hover {
 }
 
 #forgot-password {
-	color: white;
-	text-shadow: blueviolet 0px 0px 10px;
+	color: white;	
 	text-decoration: none;
 	margin: 10px auto;
 	padding: 10px;
+}
+
+#forgot-password:hover {
+	text-shadow: blueviolet 0px 0px 10px;
 }
